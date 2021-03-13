@@ -1,0 +1,240 @@
+//variables
+$fontmed: 'robotomedium';  
+$fontitr: 'shrikhandregular';
+$fontext: 'robotoregular';
+$grey-strongcolor: #d9d9d9;
+$grey-smoothcolor: #f2f2f2;
+$grey-txtcolor: #5D5959;
+$pri-color: #9356dc;
+$sec-color: #ff79da;
+$ter-color: #99E2D0;
+//mixin
+@mixin fonct-mainbtn {
+    width: auto;
+    margin: 0px 20px 20px 30px;
+    padding: 20px 0px 20px 0px;
+    background-color: $grey-smoothcolor;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    /*opacity: rgba(0, 0, 0, 0, 0.5)*/
+    display: flex;
+    position: relative;
+    &__num {
+        border-radius: 50%;
+        padding: 5px 10px;
+        color: white;
+        background-color: $pri-color;
+        position: absolute;
+        left: -15px;
+        top: 15px; 
+    }
+    &__ico {
+        margin-left: 40px;
+        + div {
+            margin-left: 30px;
+            font-family: $fontmed;
+            font-weight: bold;
+        }
+    } 
+}
+
+//corp du site
+body{
+    width: 375px;
+    height: 2263px;
+    background-color: white;
+    margin: 0;
+    
+}
+//en tete et logo
+header{
+    border-bottom: $grey-strongcolor solid 1px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+}
+//saisie de recherche et position
+.main-searchzone{
+    padding: 15px 0px 15px 0px;
+    border-bottom: solid 1px $grey-smoothcolor;
+    background-color: $grey-strongcolor;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+}
+form{
+    input{
+        border: transparent;
+        color: black;
+        background-color: $grey-strongcolor;
+        margin-left: 10px;
+    }
+}
+//titre principal et bouton d'accueil
+.main-pitch{
+    width: auto;
+    height: auto;
+    background-color: $grey-smoothcolor;
+    padding-bottom: 40px;
+    &__title {
+        margin: 0 50px 10px 50px;
+        text-align: center;
+        padding-top: 30px;
+        font-family: $fontmed;
+    }
+    &__txt {
+        margin: 0 30px 30px 30px;
+        text-align: center;
+        font-family: $fontext;
+        color: $grey-txtcolor;
+        + .main__btn {
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 15px;
+            text-align: center;
+            font-size: 0.8rem;
+            font-family: $fontmed;
+            background: linear-gradient(0deg, $pri-color, $sec-color);
+            border-radius: 20px;
+            box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+            > a {
+                text-decoration: none;
+                color: white; 
+            }
+            
+        }
+    }
+}
+//bloc de fonctionnement et etape client
+.fonctionnement{
+    height: auto;
+    background-color: white;
+    &__title {
+        font-family: $fontfam-regtxt;
+        margin: 30px 0px 30px 20px;
+    }
+}
+.btn-choix{
+    width: auto;
+    margin: 0px 20px 20px 30px;
+    padding: 20px 0px 20px 0px;
+    background-color: $grey-smoothcolor;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    /*opacity: rgba(0, 0, 0, 0, 0.5)*/
+    display: flex;
+    position: relative;
+    &__num {
+        border-radius: 50%;
+        padding: 5px 10px;
+        color: white;
+        background-color: $pri-color;
+        position: absolute;
+        left: -15px;
+        top: 15px; 
+    }
+    &__ico {
+        margin-left: 40px;
+        + div {
+            margin-left: 30px;
+            font-family: $fontfam-tintxt;
+            font-weight: bold;
+        }
+    }
+}
+.btn-compo{
+    @include fonct-mainbtn();
+}
+.btn-gout{
+    @include fonct-mainbtn();
+    margin-bottom: 50px;
+    &--bglight{
+        background: rgba($color: #9356dc, $alpha: 0.1);
+         span{
+             color: $pri-color;
+         }  
+    }
+}
+.resto{
+    height: auto;
+    background-color: $grey-smoothcolor;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    &__title{
+        margin: 0px 0px 30px 20px;
+        font-family: $fontfam-regtxt, Arial, Helvetica, sans-serif;
+    }
+}
+.resto__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+     img{
+        width: 335px;
+        height: 168px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        + .new {
+            border: $ter-color 1px solid;
+            border-radius: 5px;
+            padding: 5px 10px;
+            background-color: $ter-color;
+            position: absolute;
+            right: 35px;
+            font-size: 0.8em;
+            color: green;
+            font-weight: bold;
+            font-family: $fontfam-regtxt;
+            &:nth-child(3){
+                display: none;
+            }
+        }
+    }
+}
+.resto__indic{
+    border: 1px solid $grey-strongcolor;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0px 20px 15px 20px;
+    position: relative;
+    height: 70px;
+    .resto__name {
+        font-family: $fontfam-regtxt, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        + p {
+            margin-left: 10px;
+            margin-top: 0px;
+        }  
+    }    
+}
+.fa-heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+    height: auto;
+    padding: 30px 20px 20px 0px;
+    color: white;
+     .foot-title {
+        font-size: 1.5rem;
+        font-family: $fontfam-titr;
+        padding-left: 20px;
+     }
+}
+.foot__text {
+    display: flex;
+     span {
+         padding: 20px;
+        
+     }
+
+}
