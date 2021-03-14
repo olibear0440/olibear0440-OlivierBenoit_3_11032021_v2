@@ -1,1 +1,305 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  width: 375px;
+  height: 2263px;
+  background-color: white;
+  margin: 0;
+}
+
+header {
+  border-bottom: #d9d9d9 solid 1px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  text-align: center;
+  padding: 20px 0px 5px 0px;
+}
+
+.main-searchzone {
+  padding: 15px 0px 15px 0px;
+  border-bottom: solid 1px #f2f2f2;
+  background-color: #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form input {
+  border: transparent;
+  color: black;
+  background-color: #d9d9d9;
+  margin-left: 10px;
+}
+
+.main-pitch {
+  width: auto;
+  height: auto;
+  background-color: #f2f2f2;
+  padding-bottom: 40px;
+}
+
+.main-pitch__title {
+  margin: 0 50px 10px 50px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "robotomedium";
+}
+
+.main-pitch__txt {
+  margin: 0 30px 30px 30px;
+  text-align: center;
+  font-family: "robotoregular";
+  color: #5D5959;
+}
+
+.main-pitch__txt + .main__btn {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "robotomedium";
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(0deg, #9356dc, #ff79da);
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+}
+
+.main-pitch__txt + .main__btn > a {
+  text-decoration: none;
+  color: white;
+}
+
+.fonctionnement {
+  height: auto;
+  background-color: white;
+}
+
+.fonctionnement__title {
+  font-family: "robotomedium";
+  margin: 30px 0px 30px 20px;
+}
+
+.btn-choix {
+  width: auto;
+  margin: 0px 20px 20px 30px;
+  padding: 20px 0px 20px 0px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  /*opacity: rgba(0, 0, 0, 0, 0.5)*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.btn-choix__num {
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: white;
+  background-color: #9356dc;
+  position: absolute;
+  left: -15px;
+  top: 15px;
+}
+
+.btn-choix__ico {
+  margin-left: 40px;
+}
+
+.btn-choix__ico + div {
+  margin-left: 30px;
+  font-family: "robotoregular";
+  font-weight: bold;
+}
+
+.btn-compo {
+  width: auto;
+  margin: 0px 20px 20px 30px;
+  padding: 20px 0px 20px 0px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  /*opacity: rgba(0, 0, 0, 0, 0.5)*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.btn-compo__num {
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: white;
+  background-color: #9356dc;
+  position: absolute;
+  left: -15px;
+  top: 15px;
+}
+
+.btn-compo__ico {
+  margin-left: 40px;
+}
+
+.btn-compo__ico + div {
+  margin-left: 30px;
+  font-family: "robotomedium";
+  font-weight: bold;
+}
+
+.btn-gout {
+  width: auto;
+  margin: 0px 20px 20px 30px;
+  padding: 20px 0px 20px 0px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  /*opacity: rgba(0, 0, 0, 0, 0.5)*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.btn-gout__num {
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: white;
+  background-color: #9356dc;
+  position: absolute;
+  left: -15px;
+  top: 15px;
+}
+
+.btn-gout__ico {
+  margin-left: 40px;
+}
+
+.btn-gout__ico + div {
+  margin-left: 30px;
+  font-family: "robotomedium";
+  font-weight: bold;
+}
+
+.btn-gout--bglight {
+  background: rgba(147, 86, 220, 0.1);
+}
+
+.btn-gout--bglight span {
+  color: #9356dc;
+}
+
+.resto {
+  height: auto;
+  background-color: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.resto__title {
+  margin: 0px 0px 30px 20px;
+  font-family: "robotomedium", Arial, Helvetica, sans-serif;
+}
+
+.resto__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.resto__img img {
+  width: 335px;
+  height: 168px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.resto__img img + .new {
+  border: #99E2D0 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #99E2D0;
+  position: absolute;
+  right: 35px;
+  font-size: 0.8em;
+  color: green;
+  font-weight: bold;
+  font-family: "robotomedium";
+}
+
+.resto__img img + .new:nth-child(3) {
+  display: none;
+}
+
+.resto__indic {
+  border: 1px solid #d9d9d9;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 0px 20px 15px 20px;
+  position: relative;
+  height: 70px;
+}
+
+.resto__indic .resto__name {
+  font-family: "robotomedium", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.resto__indic .resto__name + p {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.fa-heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: #353535;
+  height: auto;
+  padding: 30px 20px 20px 0px;
+  color: white;
+}
+
+footer .foot-title {
+  font-size: 1.5rem;
+  font-family: "robotomedium";
+  padding-left: 20px;
+}
+
+.foot__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foot__text span {
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
