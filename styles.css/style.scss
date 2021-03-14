@@ -1,9 +1,39 @@
 
+@font-face {
+    font-family: 'robotobold';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bases/fontsfamily/Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bases/fontsfamily/Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('../bases/fontsfamily/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('../bases/fontsfamily/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 //variables
 
 $grey-strongcolor: #d9d9d9;
 $grey-smoothcolor: #f2f2f2;
-$grey-txtcolor: #5D5959;
+$grey-txtcolor: rgb(101, 101, 101);
 $pri-color: #9356dc;
 $sec-color: #ff79da;
 $ter-color: #99E2D0;
@@ -15,7 +45,7 @@ $ter-color: #99E2D0;
     background-color: $grey-smoothcolor;
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    
+    font-family: 'robotobold', Arial, sans-serif;
     display: flex;
     position: relative;
     &__num {
@@ -29,8 +59,10 @@ $ter-color: #99E2D0;
     }
     &__ico {
         margin-left: 40px;
+        color: $grey-txtcolor;
         + div {
             margin-left: 30px;
+            
             
         }
     } 
@@ -39,22 +71,22 @@ $ter-color: #99E2D0;
 //corp du site
 body{
     width: 375px;
-    height: 2263px;
+    height: auto;
     background-color: white;
     margin: 0;
     
 }
 //en tete et logo
 header{
-    border-bottom: $grey-strongcolor solid 1px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    border-bottom: rgb(207, 207, 207) solid 1px;
+    box-shadow: rgba(213, 213, 213, 1) 0px 2px 5px;
     text-align: center;
     padding: 20px 0px 5px 0px;
 }
 //saisie de recherche et position
 .main-searchzone{
-    border-bottom: solid 1px $grey-smoothcolor;
-    background-color: $grey-strongcolor;
+    border-bottom: solid 1px rgb(234, 234, 234);
+    background-color: rgb(234, 234, 234);
     display: flex;
     flex-direction: row; 
     justify-content: center; 
@@ -67,7 +99,7 @@ form{
     input{
         border: transparent;
         color: black;
-        background-color: $grey-strongcolor;
+        background-color: rgb(234, 234, 234);
         margin-left: 10px;
         padding: 10px 0px 10px 0px;
     }
@@ -76,12 +108,13 @@ form{
 .main-pitch{
     width: auto;
     height: auto;
-    background-color: $grey-smoothcolor;
-    padding-bottom: 40px;
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 50px;
     &__title {
         margin: 0 50px 10px 50px;
         text-align: center;
         padding-top: 30px;
+        font-family: 'robotobold', Arial, sans-serif;
     }
     &__txt {
         margin: 0 30px 30px 30px;
@@ -96,11 +129,11 @@ form{
             background: linear-gradient(0deg, $pri-color, $sec-color);
             border-radius: 20px;
             box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+            font-family: 'robotoregular', Arial, sans-serif;
             > a {
                 text-decoration: none;
                 color: white; 
             }
-            
         }
     }
 }
@@ -110,16 +143,17 @@ form{
     background-color: white;
     &__title {
         margin: 30px 0px 30px 20px;
+        font-family: 'robotobold', Arial, sans-serif;
     }
 }
 .btn-choix{
     width: auto;
     margin: 0px 20px 20px 30px;
     padding: 20px 0px 20px 0px;
-    background-color: $grey-smoothcolor;
+    background-color: rgb(246, 246, 246);
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    
+    font-family: 'robotobold', Arial, sans-serif;
     display: flex;
     position: relative;
     &__num {
@@ -133,9 +167,11 @@ form{
     }
     &__ico {
         margin-left: 40px;
+        color: $grey-txtcolor;
+        font-size: 1.35em;
         + div {
             margin-left: 30px;
-            font-weight: bold;
+            
         }
     }
 }
@@ -154,11 +190,12 @@ form{
 }
 .resto{
     height: auto;
-    background-color: $grey-smoothcolor;
+    background-color: rgb(246, 246, 246);
     padding-top: 40px;
     padding-bottom: 40px;
     &__title{
         margin: 0px 0px 30px 20px;
+        font-family: 'robotobold', Arial, sans-serif;
     }
 }
 .resto__img{
@@ -179,8 +216,8 @@ form{
             position: absolute;
             right: 35px;
             font-size: 0.8em;
-            color: green;
-            font-weight: bold;
+            color: rgb(0, 135, 102);
+            font-family: 'robotobold', Arial, sans-serif;
             &:nth-child(3){
                 display: none;
             }
@@ -188,20 +225,22 @@ form{
     }
 }
 .resto__indic{
-    border: 1px solid $grey-strongcolor;
+    border: 1px solid rgb(231, 231, 231);
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin: 0px 20px 15px 20px;
+    margin: 0px 20px 20px 20px;
     position: relative;
     height: 70px;
     .resto__name {
-        font-weight: bold;
         margin-left: 10px;
         margin-bottom: 0px;
+        font-family: 'robotobold', Arial, sans-serif;
         + p {
             margin-left: 10px;
             margin-top: 0px;
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.85em;
         }  
     }    
 }
@@ -210,26 +249,47 @@ form{
     top: 20px;
     right: 20px;
     font-size: 1.5em;
+    color: $grey-txtcolor;
 
 }
-
-
-
 footer{
     background-color: rgb(53, 53, 53);
     height: auto;
-    padding: 30px 20px 20px 0px;
+    padding: 30px 20px 40px 0px;
     color: white;
      .foot-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-left: 20px;
+        font-family: 'shrikhandregular', Arial, sans-serif;
+         p {
+             margin-bottom: 10px;
+         }
+        
      }
 }
 .foot__text {
     display: flex;
+    font-family: 'robotoregular', Arial, sans-serif;
      span {
-         padding: 20px;
-        
+         padding-top: 15px;
+         font-size: 0.8em;
+         margin-left: 20px;
+        + p {
+              font-size: 0.8em;
+              margin-left: 10px;
+              margin-bottom: 0;
+          }
      }
-
+}
+.foot__contact{
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-family: 'robotoregular', Arial, sans-serif;
+     p {
+         margin-bottom: 0;
+         a {
+             text-decoration: none;
+             color: white;
+         }
+     }
 }
