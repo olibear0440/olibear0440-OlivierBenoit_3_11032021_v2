@@ -1,15 +1,4 @@
-@font-face {
-    font-family: 'robotobold';
-    src: url('Roboto-Bold-webfont.eot');
-    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-Bold-webfont.woff2') format('woff2'),
-         url('../bases/fontsfamily/roboto_bold_macroman/Roboto-Bold-webfont.woff') format('woff'),
-         url('Roboto-Bold-webfont.ttf') format('truetype'),
-         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 //variables
 
 $grey-strongcolor: #d9d9d9;
@@ -42,8 +31,7 @@ $ter-color: #99E2D0;
         margin-left: 40px;
         + div {
             margin-left: 30px;
-            font-family:#;
-            font-weight: bold;
+            
         }
     } 
 }
@@ -94,7 +82,6 @@ form{
         margin: 0 50px 10px 50px;
         text-align: center;
         padding-top: 30px;
-        font-family: 'robotobold', Arial, Helvetica, sans-serif;
     }
     &__txt {
         margin: 0 30px 30px 30px;
@@ -124,7 +111,6 @@ form{
     height: auto;
     background-color: white;
     &__title {
-        font-family:#;
         margin: 30px 0px 30px 20px;
     }
 }
@@ -151,7 +137,6 @@ form{
         margin-left: 40px;
         + div {
             margin-left: 30px;
-            font-family:#;
             font-weight: bold;
         }
     }
@@ -176,7 +161,6 @@ form{
     padding-bottom: 40px;
     &__title{
         margin: 0px 0px 30px 20px;
-        font-family:#;
     }
 }
 .resto__img{
@@ -199,7 +183,6 @@ form{
             font-size: 0.8em;
             color: green;
             font-weight: bold;
-            font-family:#;
             &:nth-child(3){
                 display: none;
             }
@@ -215,7 +198,6 @@ form{
     position: relative;
     height: 70px;
     .resto__name {
-        font-family:#;
         font-weight: bold;
         margin-left: 10px;
         margin-bottom: 0px;
@@ -242,7 +224,6 @@ footer{
     color: white;
      .foot-title {
         font-size: 1.5rem;
-        font-family:#;
         padding-left: 20px;
      }
 }
