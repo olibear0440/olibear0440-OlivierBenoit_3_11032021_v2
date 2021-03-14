@@ -27,8 +27,6 @@
     font-style: normal;
 }
 
-
-
 //variables
 
 $grey-strongcolor: #d9d9d9;
@@ -62,19 +60,15 @@ $ter-color: #99E2D0;
         color: $grey-txtcolor;
         + div {
             margin-left: 30px;
-            
-            
         }
     } 
 }
-
 //corp du site
 body{
     width: 375px;
     height: auto;
     background-color: white;
-    margin: 0;
-    
+    margin: 0;   
 }
 //en tete et logo
 header{
@@ -92,7 +86,6 @@ header{
     justify-content: center; 
      div{
          padding: 10px 0px 10px 0px;
-
     }
 }
 form{
@@ -102,6 +95,7 @@ form{
         background-color: rgb(234, 234, 234);
         margin-left: 10px;
         padding: 10px 0px 10px 0px;
+        cursor: pointer;
     }
 }
 //titre principal et bouton d'accueil
@@ -120,6 +114,7 @@ form{
         margin: 0 30px 30px 30px;
         text-align: center;
         color: $grey-txtcolor;
+        font-family: 'robotoregular', Arial, sans-serif;
         + .main__btn {
             margin-left: 100px;
             margin-right: 100px;
@@ -170,8 +165,7 @@ form{
         color: $grey-txtcolor;
         font-size: 1.35em;
         + div {
-            margin-left: 30px;
-            
+            margin-left: 30px;   
         }
     }
 }
@@ -186,6 +180,12 @@ form{
          span{
              color: $pri-color;
          }  
+    }
+}
+section{
+    a {
+        text-decoration: none;
+        color: black;
     }
 }
 .resto{
@@ -250,7 +250,9 @@ form{
     right: 20px;
     font-size: 1.5em;
     color: $grey-txtcolor;
-
+        
+        
+    }
 }
 footer{
     background-color: rgb(53, 53, 53);
@@ -263,8 +265,7 @@ footer{
         font-family: 'shrikhandregular', Arial, sans-serif;
          p {
              margin-bottom: 10px;
-         }
-        
+         }  
      }
 }
 .foot__text {
@@ -278,6 +279,10 @@ footer{
               font-size: 0.8em;
               margin-left: 10px;
               margin-bottom: 0;
+               a {
+                   text-decoration: none;
+                   color: white;
+               }
           }
      }
 }

@@ -61,6 +61,7 @@ form input {
   background-color: #eaeaea;
   margin-left: 10px;
   padding: 10px 0px 10px 0px;
+  cursor: pointer;
 }
 
 .main-pitch {
@@ -81,6 +82,7 @@ form input {
   margin: 0 30px 30px 30px;
   text-align: center;
   color: #656565;
+  font-family: 'robotoregular', Arial, sans-serif;
 }
 
 .main-pitch__txt + .main__btn {
@@ -224,6 +226,11 @@ form input {
   color: #9356dc;
 }
 
+section a {
+  text-decoration: none;
+  color: black;
+}
+
 .resto {
   height: auto;
   background-color: #f6f6f6;
@@ -339,6 +346,11 @@ footer .foot-title p {
   font-size: 0.8em;
   margin-left: 10px;
   margin-bottom: 0;
+}
+
+.foot__text span + p a {
+  text-decoration: none;
+  color: white;
 }
 
 .foot__contact {
