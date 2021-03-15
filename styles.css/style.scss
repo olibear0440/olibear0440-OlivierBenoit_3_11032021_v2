@@ -76,6 +76,7 @@ header{
     box-shadow: rgba(213, 213, 213, 1) 0px 2px 5px;
     text-align: center;
     padding: 20px 0px 5px 0px;
+    background-color: white;
 }
 //saisie de recherche et position
 .main-searchzone{
@@ -115,22 +116,29 @@ form{
         text-align: center;
         color: $grey-txtcolor;
         font-family: 'robotoregular', Arial, sans-serif;
-        + .main__btn {
-            margin-left: 100px;
-            margin-right: 100px;
-            padding: 15px;
-            text-align: center;
-            font-size: 0.8rem;
-            background: linear-gradient(0deg, $pri-color, $sec-color);
-            border-radius: 20px;
-            box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-            font-family: 'robotoregular', Arial, sans-serif;
-            > a {
-                text-decoration: none;
-                color: white; 
-            }
-        }
     }
+}
+.main__btn {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.8rem;
+    background: linear-gradient(0deg, $pri-color, $sec-color);
+    border-radius: 20px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    transition-property: background-color, box-shadow;
+    transition-duration: 1000ms, 500ms;
+    &:hover {
+        background: linear-gradient(0deg, $pri-color, $sec-color);
+        opacity: 0.9;
+        box-shadow: rgba(82, 81, 81, 0.7) 0px 4px 5px;
+    }
+    > a {
+        text-decoration: none;
+        color: white; 
+        font-family: 'robotoregular', Arial, sans-serif;   
+        }
 }
 //bloc de fonctionnement et etape client
 .fonctionnement{
@@ -232,6 +240,7 @@ section{
     margin: 0px 20px 20px 20px;
     position: relative;
     height: 70px;
+    background-color: white;
     .resto__name {
         margin-left: 10px;
         margin-bottom: 0px;
@@ -249,7 +258,15 @@ section{
     top: 20px;
     right: 20px;
     font-size: 1.5em;
-    color: $grey-txtcolor;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    transition-property: color;
+    transition-duration: 2000ms;
+    &:hover {
+        color: $pri-color;
+    }
+    
+    
 }
 footer{
     background-color: rgb(53, 53, 53);

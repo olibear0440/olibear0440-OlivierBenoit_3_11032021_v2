@@ -34,6 +34,7 @@ header {
           box-shadow: #d5d5d5 0px 2px 5px;
   text-align: center;
   padding: 20px 0px 5px 0px;
+  background-color: white;
 }
 
 .main-searchzone {
@@ -85,7 +86,7 @@ form input {
   font-family: 'robotoregular', Arial, sans-serif;
 }
 
-.main-pitch__txt + .main__btn {
+.main__btn {
   margin-left: 100px;
   margin-right: 100px;
   padding: 15px;
@@ -96,12 +97,26 @@ form input {
   border-radius: 20px;
   -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
           box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-  font-family: 'robotoregular', Arial, sans-serif;
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 1000ms, 500ms;
+          transition-duration: 1000ms, 500ms;
 }
 
-.main-pitch__txt + .main__btn > a {
+.main__btn:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(0deg, #9356dc, #ff79da);
+  opacity: 0.9;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.7) 0px 4px 5px;
+          box-shadow: rgba(82, 81, 81, 0.7) 0px 4px 5px;
+}
+
+.main__btn > a {
   text-decoration: none;
   color: white;
+  font-family: 'robotoregular', Arial, sans-serif;
 }
 
 .fonctionnement {
@@ -289,6 +304,7 @@ section a {
   margin: 0px 20px 20px 20px;
   position: relative;
   height: 70px;
+  background-color: white;
 }
 
 .resto__indic .resto__name {
@@ -309,7 +325,16 @@ section a {
   top: 20px;
   right: 20px;
   font-size: 1.5em;
-  color: #656565;
+  color: white;
+  text-shadow: 0 0 3px #000;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 2000ms;
+          transition-duration: 2000ms;
+}
+
+.fa-heart:hover {
+  color: #9356dc;
 }
 
 footer {
