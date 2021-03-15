@@ -65,11 +65,50 @@ form input {
   cursor: pointer;
 }
 
+.spin-loader {
+  border: 10px solid #f6f6f6;
+  border-top: 10px solid #9356dc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #9356dc;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  left: 60px;
+  top: 10px;
+  position: absolute;
+  -webkit-animation: loader 3000ms linear 0s 1 normal none;
+          animation: loader 3000ms linear 0s 1 normal none;
+}
+
+@-webkit-keyframes loader {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 .main-pitch {
   width: auto;
   height: auto;
   background-color: #f6f6f6;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .main-pitch__title {

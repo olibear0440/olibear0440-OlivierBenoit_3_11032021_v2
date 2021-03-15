@@ -99,12 +99,32 @@ form{
         cursor: pointer;
     }
 }
+//animation spin-loader
+.spin-loader{
+    border: 10px solid rgb(246, 246, 246);
+    border-top: 10px solid $pri-color;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $pri-color;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    left: 60px;
+    top: 10px;
+    position: absolute;
+    animation: loader 3000ms linear 0s 1 normal none;
+}
+@keyframes loader {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
 //titre principal et bouton d'accueil
 .main-pitch{
     width: auto;
     height: auto;
     background-color: rgb(246, 246, 246);
     padding-bottom: 50px;
+    position: relative;
     &__title {
         margin: 0 50px 10px 50px;
         text-align: center;
