@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=styles_menupalette.css.map */
+@font-face {
+  font-family: 'robotobold';
+  src: url("Roboto-Bold-webfont.eot");
+  src: url("Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../bases/fontsfamily/Roboto-Bold-webfont.woff") format("woff"), url("Roboto-Bold-webfont.ttf") format("truetype"), url("Roboto-Bold-webfont.svg#robotobold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("Roboto-Regular-webfont.eot");
+  src: url("Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../bases/fontsfamily/Roboto-Regular-webfont.woff") format("woff"), url("Roboto-Regular-webfont.ttf") format("truetype"), url("Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'shrikhandregular';
+  src: url("../bases/fontsfamily/shrikhand-regular-webfont.woff2") format("woff2"), url("../bases/fontsfamily/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 375px;
+  height: auto;
+  margin: 0;
+}
+
+header {
+  border-bottom: #cfcfcf solid 1px;
+  -webkit-box-shadow: #d5d5d5 0px 2px 5px;
+          box-shadow: #d5d5d5 0px 2px 5px;
+  text-align: center;
+  padding: 20px 0px 5px 0px;
+  background-color: white;
+  position: relative;
+}
+
+header span {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+/*# sourceMappingURL=styles_menupalette.css.map */

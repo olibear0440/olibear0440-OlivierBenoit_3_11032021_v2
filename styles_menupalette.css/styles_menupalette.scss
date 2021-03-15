@@ -1,0 +1,23 @@
+@import "../bases/fontsfamily/font-family";
+
+body{
+    width: 375px;
+    height: auto;
+    margin: 0;   
+}
+//en tete et logo
+header{
+    border-bottom: rgb(207, 207, 207) solid 1px;
+    box-shadow: rgba(213, 213, 213, 1) 0px 2px 5px;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    background-color: white;
+    position: relative;
+     span{
+         position: absolute;
+         left: 20px;
+         top: 30px;
+
+     }
+}
+     
