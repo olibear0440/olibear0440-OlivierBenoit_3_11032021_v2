@@ -112,12 +112,16 @@ form{
     left: 60px;
     top: 10px;
     position: absolute;
-    animation: loader 3000ms linear 0s 1 normal none;
+    animation: loader 3000ms linear 0s 1 forwards;
 }
 @keyframes loader {
-    from { transform: rotate(0deg);}
-    to { transform: rotate(360deg);}
+    
+     from { transform: rotate(0deg);}
+     to { transform: rotate(360deg);
+    visibility: hidden;}
 }
+
+
 //titre principal et bouton d'accueil
 .main-pitch{
     width: auto;

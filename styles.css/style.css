@@ -77,8 +77,8 @@ form input {
   left: 60px;
   top: 10px;
   position: absolute;
-  -webkit-animation: loader 3000ms linear 0s 1 normal none;
-          animation: loader 3000ms linear 0s 1 normal none;
+  -webkit-animation: loader 3000ms linear 0s 1 forwards;
+          animation: loader 3000ms linear 0s 1 forwards;
 }
 
 @-webkit-keyframes loader {
@@ -89,6 +89,7 @@ form input {
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+    visibility: hidden;
   }
 }
 
@@ -100,6 +101,7 @@ form input {
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+    visibility: hidden;
   }
 }
 
