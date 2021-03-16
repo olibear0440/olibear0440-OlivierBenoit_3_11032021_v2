@@ -1,14 +1,37 @@
 @import "../bases/fontsfamily/font-family";
 @import "../bases/footer/footer";
+
+// variables
+$backg-grey: rgb(246, 246, 246);
+$pri-color: #9356dc;         
+$ter-color: #99E2D0;
+
+//mixin
+@mixin plat-titr {
+    h1{
+        font-family: 'robotoregular', Arial, sans-serif;
+        font-size: 1.1em;
+        color: rgb(61, 61, 61);
+        padding-bottom: 5px;
+        border-bottom: $ter-color solid 3px;
+        margin-left: 20px;
+        width: 12%;
+    }
+}
+
+
 body{
     width: 375px;
     height: auto;
-    margin: 0;   
+    margin: 0; 
+    background-image: url(../bases/img/resto1retr.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position-y: 65px;
 }
 //en tete et logo
 header{
-    border-bottom: rgb(207, 207, 207) solid 1px;
-    box-shadow: rgba(213, 213, 213, 1) 0px 2px 5px;
     text-align: center;
     padding: 20px 0px 5px 0px;
     background-color: white;
@@ -17,9 +40,263 @@ header{
          position: absolute;
          left: 20px;
          top: 30px;
-
      }
 }
-//fond d'ecran
 
-     
+//section
+.name-resto{
+    background-color: $backg-grey;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 220px;
+    &__titre{
+        display: flex;
+        font-family: 'shrikhandregular', Arial, sans-serif;
+        position: relative;
+        padding: 20px 0px 5px 20px;
+         span{
+             color: $backg-grey;
+             font-size: 1.5em;
+             text-shadow: 0 0 3px #000;
+             right: 40px;
+             top: 35px;
+             position: absolute;
+             transition-property: color;
+             transition-duration: 2000ms;
+             &:hover {
+                color: $pri-color;
+            }
+        }
+    }
+}
+.plat{
+    @include plat-titr();
+}
+// les entrées
+.plat__fricassee{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}  
+.plat__foigras{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}  
+.plat__oeufplat{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}  
+// les plats
+.plat__boeuf{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}  
+.plat__parmentier{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}      
+.plat__turbot{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}       
+// desserts
+.plat__paris{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+} 
+.plat__macaron{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}
+.plat__mousse{
+    background-color: white;
+    margin: 0px 15px 20px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    position: relative;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+} 

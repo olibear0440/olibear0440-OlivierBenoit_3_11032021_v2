@@ -81,12 +81,14 @@ body {
   width: 375px;
   height: auto;
   margin: 0;
+  background-image: url(../bases/img/resto1retr.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+  background-position-y: 65px;
 }
 
 header {
-  border-bottom: #cfcfcf solid 1px;
-  -webkit-box-shadow: #d5d5d5 0px 2px 5px;
-          box-shadow: #d5d5d5 0px 2px 5px;
   text-align: center;
   padding: 20px 0px 5px 0px;
   background-color: white;
@@ -97,5 +99,318 @@ header span {
   position: absolute;
   left: 20px;
   top: 30px;
+}
+
+.name-resto {
+  background-color: #f6f6f6;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: 220px;
+}
+
+.name-resto__titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'shrikhandregular', Arial, sans-serif;
+  position: relative;
+  padding: 20px 0px 5px 20px;
+}
+
+.name-resto__titre span {
+  color: #f6f6f6;
+  font-size: 1.5em;
+  text-shadow: 0 0 3px #000;
+  right: 40px;
+  top: 35px;
+  position: absolute;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 2000ms;
+          transition-duration: 2000ms;
+}
+
+.name-resto__titre span:hover {
+  color: #9356dc;
+}
+
+.plat h1 {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 1.1em;
+  color: #3d3d3d;
+  padding-bottom: 5px;
+  border-bottom: #99E2D0 solid 3px;
+  margin-left: 20px;
+  width: 12%;
+}
+
+.plat__fricassee {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__fricassee--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__fricassee--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__fricassee--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__foigras {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__foigras--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__foigras--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__foigras--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__oeufplat {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__oeufplat--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__oeufplat--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__oeufplat--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__boeuf {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__boeuf--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__boeuf--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__boeuf--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__parmentier {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__parmentier--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__parmentier--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__parmentier--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__turbot {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__turbot--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__turbot--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__turbot--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__paris {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__paris--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__paris--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__paris--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__macaron {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__macaron--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__macaron--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__macaron--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
+}
+
+.plat__mousse {
+  background-color: white;
+  margin: 0px 15px 20px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  position: relative;
+}
+
+.plat__mousse--name {
+  font-family: 'robotobold', Arial, sans-serif;
+  padding: 10px 0px 5px 10px;
+  margin: 0;
+}
+
+.plat__mousse--name + p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 0px 0px 10px 10px;
+  margin-top: 0;
+}
+
+.plat__mousse--name + p + p {
+  position: absolute;
+  font-family: 'robotobold', Arial, sans-serif;
+  font-size: 0.9em;
+  top: 20px;
+  right: 20px;
 }
 /*# sourceMappingURL=styles_menupalette.css.map */
