@@ -20,6 +20,16 @@ $ter-color: #99E2D0;
     }
 }
 
+//animations 
+
+@keyframes plat-translate{
+    0%{opacity: 1; transform: translateY(0);}
+    50%{opacity: 0.5;}
+    100%{transform: translateY(20px);}
+}
+
+
+
 // corp du site
 body{
     width: 375px;
@@ -85,6 +95,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1000ms;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -104,12 +122,25 @@ header{
          }
     }
 }  
+
+
+
+
+
 .plat__foigras{
     background-color: white;
     margin: 0px 15px 20px 15px;
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -135,6 +166,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -161,6 +200,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -186,6 +233,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -211,6 +266,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -237,6 +300,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -262,6 +333,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -287,6 +366,14 @@ header{
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
     position: relative;
+    opacity: 0;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
