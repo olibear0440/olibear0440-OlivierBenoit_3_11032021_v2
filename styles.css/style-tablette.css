@@ -21,10 +21,9 @@
   font-style: normal;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   body {
     min-width: 600px;
-    max-width: 1200px;
     height: auto;
     background-color: white;
     margin: 0;
