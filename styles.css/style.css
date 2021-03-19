@@ -26,6 +26,7 @@ body {
   height: auto;
   background-color: white;
   margin: 0;
+  border: #f6f6f6 1px solid;
 }
 
 header {
