@@ -260,7 +260,7 @@ section{
     text-shadow: 0 0 3px #000;
     transition-property: color;
     transition-duration: 2000ms;
-    &:focus {
+    &:hover {
         color: $pri-color;
     } 
 }

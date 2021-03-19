@@ -374,7 +374,7 @@ section a {
           transition-duration: 2000ms;
 }
 
-.fa-heart:focus {
+.fa-heart:hover {
   color: #9356dc;
 }
 

@@ -24,6 +24,7 @@
 @media screen and (max-width: 1200px) and (min-width: 600px) {
   body {
     min-width: 600px;
+    max-width: 1200px;
     height: auto;
     background-color: white;
     margin: 0;
@@ -86,6 +87,7 @@
   }
   .btn-choix__ico {
     margin-left: 65px;
+    font-size: 1.5em;
   }
   .btn-choix__ico + div {
     margin-top: 20px;
@@ -104,6 +106,7 @@
   }
   .btn-compo__ico {
     margin-left: 65px;
+    font-size: 1.5em;
   }
   .btn-compo__ico + div {
     margin-top: 20px;
@@ -123,6 +126,7 @@
   }
   .btn-gout__ico {
     margin-left: 65px;
+    font-size: 1.5em;
   }
   .btn-gout__ico + div {
     margin-top: 20px;
@@ -139,8 +143,24 @@
   .resto__indic .resto__name {
     font-size: 1.3em;
   }
+  .resto__indic .resto__name + p {
+    font-size: 1.2em;
+  }
   .fa-heart {
     top: 35px;
+  }
+  footer .foot-title p {
+    font-size: 1.7em;
+  }
+  .foot__text span {
+    padding-top: 23px;
+    font-size: 1.2em;
+  }
+  .foot__text span + p {
+    font-size: 1.2em;
+  }
+  .foot__contact {
+    font-size: 1.2em;
   }
 }
 /*# sourceMappingURL=style-tablette.css.map */

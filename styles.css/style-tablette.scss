@@ -37,6 +37,7 @@ $ter-color: #99E2D0;
 @media screen and (max-width: 1200px) and (min-width: 600px){
     body{
         min-width: 600px;
+        max-width: 1200px;
         height: auto;
         background-color: white;
         margin: 0;   
@@ -96,6 +97,7 @@ $ter-color: #99E2D0;
         flex-direction: column;
         &__ico{
             margin-left: 65px;
+            font-size: 1.5em;
             + div{
                 margin-top: 20px;
                 margin-left: 0;
@@ -109,6 +111,7 @@ $ter-color: #99E2D0;
         flex-direction: column;
         &__ico{
             margin-left: 65px;
+            font-size: 1.5em;
             + div{
                 margin-top: 20px;
                 margin-left: 0;
@@ -123,6 +126,7 @@ $ter-color: #99E2D0;
         flex-direction: column;
         &__ico{
             margin-left: 65px;
+            font-size: 1.5em;
             + div{
                 margin-top: 20px;
                 margin-left: 0;
@@ -140,12 +144,33 @@ $ter-color: #99E2D0;
         height: 100px;
         .resto__name{
             font-size: 1.3em;
+            + p{
+                font-size: 1.2em;
+            }
         }
     }
     .fa-heart{
         top: 35px;
     }
-
+    footer{
+         .foot-title{
+              p{
+                  font-size: 1.7em;
+              }
+         }
+    }
+    .foot__text{
+        span{
+            padding-top: 23px;
+            font-size: 1.2em;
+            + p{
+                font-size: 1.2em;
+            }
+        }
+    }
+    .foot__contact{
+        font-size: 1.2em;
+    }
     
 
 }   
