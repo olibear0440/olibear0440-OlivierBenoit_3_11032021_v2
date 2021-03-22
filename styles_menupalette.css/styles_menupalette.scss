@@ -92,28 +92,20 @@ header{
 // les entrées
 .bloc-plat{
     display: flex;
-}
-.plat__fricassee{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-        opacity: 1;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px; 
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    margin: 0px 15px 20px 15px;
+    color: white;
+    background-color: white;
 }
 .btn-check{
     text-align: center;
-    margin: 0px 15px 20px 0px;
-    width: 1px;
+    width: 0px;
     background-color: $ter-color;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    opacity: 0;
+    overflow: hidden;
     transition: width 500ms linear;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
 }
 .fa-check{
     font-size: 1.1rem;
@@ -125,18 +117,15 @@ header{
     transition: transform 500ms linear;
     transform: translate(0px) rotate(0deg);
  }
-.plat__fricassee:hover{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
 .plat__fricassee{
     background-color: white;
     width: 345px;
-    margin: 0px 0px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
     position: relative;
-    opacity: 0;
+    color: black;
+    text-overflow: ellipsis;
     animation-name: plat-translate;
     animation-duration: 500ms;
     animation-iteration-count: 1;
@@ -161,14 +150,26 @@ header{
              }
          }
     }
-}  
+} 
+.plat__fricassee{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
 .plat__foigras{
     background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
     position: relative;
-    opacity: 0;
+    color: black;
+    text-overflow: ellipsis;
     animation-name: plat-translate;
     animation-duration: 1000ms;
     animation-delay: 200ms;
@@ -194,14 +195,26 @@ header{
              }
          }
     }
-}  
+} 
+.plat__foigras{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
 .plat__oeufplat{
     background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
     position: relative;
-    opacity: 0;
+    color: black;
+    text-overflow: ellipsis;
     animation-name: plat-translate;
     animation-duration: 1s;
     animation-delay: 300ms;
@@ -228,14 +241,30 @@ header{
          }
     }
 }  
+.plat__oeufplat{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
+
+
+
+
 // les plats
 .plat__boeuf{
     background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
     position: relative;
-    opacity: 0;
+    color: black;
+    text-overflow: ellipsis;
     animation-name: plat-translate;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -261,112 +290,27 @@ header{
          }
     }
 }  
+.plat__boeuf{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
+
+
 .plat__parmentier{
     background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
     position: relative;
-    opacity: 0;
-    animation-name: plat-translate;
-    animation-duration: 1s;
-    animation-delay: 200ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
-    &--name{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-}      
-.plat__turbot{
-    background-color: white;
-    margin: 0px 15px 40px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    position: relative;
-    opacity: 0;
-    animation-name: plat-translate;
-    animation-duration: 1s;
-    animation-delay: 300ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
-    &--name{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-}       
-// desserts
-.plat__paris{
-    background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    position: relative;
-    opacity: 0;
-    animation-name: plat-translate;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
-    &--name{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-} 
-.plat__macaron{
-    background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    position: relative;
-    opacity: 0;
+    color: black;
+    text-overflow: ellipsis;
     animation-name: plat-translate;
     animation-duration: 1s;
     animation-delay: 200ms;
@@ -393,13 +337,25 @@ header{
          }
     }
 }
-.plat__mousse{
+.plat__parmentier{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}     
+.plat__turbot{
     background-color: white;
-    margin: 0px 15px 20px 15px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
     position: relative;
-    opacity: 0;
+    color: black;
+    text-overflow: ellipsis;
     animation-name: plat-translate;
     animation-duration: 1s;
     animation-delay: 300ms;
@@ -426,6 +382,151 @@ header{
          }
     }
 } 
+.plat__turbot{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}     
+// desserts
+.plat__paris{
+    background-color: white;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: black;
+    text-overflow: ellipsis;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+} 
+.plat__paris{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
+.plat__macaron{
+    background-color: white;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: black;
+    text-overflow: ellipsis;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+}
+.plat__macaron{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
+.plat__mousse{
+    background-color: white;
+    width: 345px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: black;
+    text-overflow: ellipsis;
+    animation-name: plat-translate;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+    &--name{
+        font-family: 'robotobold', Arial, sans-serif;
+        padding: 10px 0px 5px 10px;
+        margin: 0;
+        + p{
+            font-family: 'robotoregular', Arial, sans-serif;
+            font-size: 0.9em;
+            padding: 0px 0px 10px 10px;
+            margin-top: 0;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
+         }
+    }
+} 
+.plat__mousse{
+    transition: width 1000ms linear;
+    &:hover + .btn-check{
+        cursor: pointer;
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+        }
+    }
+}
 .main__btn {
     margin: 40px 100px 0px 100px;
     padding: 15px;
