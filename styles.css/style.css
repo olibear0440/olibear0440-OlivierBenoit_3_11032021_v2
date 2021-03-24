@@ -63,7 +63,7 @@ form input {
   color: black;
   background-color: #eaeaea;
   margin-left: 10px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 5px 10px 5px;
   cursor: pointer;
 }
 
@@ -320,6 +320,8 @@ section a {
   height: 168px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .resto__img img + .new {

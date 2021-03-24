@@ -21,9 +21,9 @@
   font-style: normal;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) and (max-width: 1920px) {
   body {
-    min-width: 600px;
+    width: auto;
     height: auto;
     background-color: white;
     margin: 0;
@@ -31,16 +31,36 @@
     margin-right: auto;
   }
   header {
-    padding: 50px 0px 50px 0px;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px 40px 0px;
+  }
+  img {
+    width: 35%;
+  }
+  .main-searchzone {
+    border-bottom: 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .main-searchzone div {
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 10px 20px;
+    margin-left: 20px;
   }
   .main-searchzone div span {
     font-size: 1.5em;
   }
+  form {
+    border: transparent 2px solid;
+    width: 23%;
+  }
   form input {
-    padding: 10px 0px 30px 0px;
+    padding: 20px 5px 20px 5px;
+    width: 100%;
+  }
+  form:hover {
+    border-bottom: solid 2px #9356dc;
   }
   .spin-loader {
     width: 30px;
@@ -52,32 +72,40 @@
     border-bottom: 5px solid #9356dc;
     top: -48px;
   }
+  .desk_contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .main-pitch {
+    width: 70%;
+    padding-bottom: 0px;
+    background-color: white;
+  }
   .main-pitch__title {
-    padding-top: 20px;
-    margin-bottom: 30px;
-    font-size: 2em;
+    margin: 0px 0px 50px 0px;
+    font-size: 2.3em;
+    padding-top: 40px;
   }
   .main-pitch__txt {
-    font-size: 1.5em;
-    margin-bottom: 40px;
+    font-size: 1.8em;
+    margin-bottom: 100px;
   }
   .main__btn {
     border-radius: 30px;
     font-size: 1.5em;
     font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
   }
   .fonctionnement {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .fonctionnement__title {
-    width: 100%;
-  }
-  .btn-choix {
-    width: 150px;
+    width: 30%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -85,18 +113,50 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+  }
+  .fonctionnement__title {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .btn-choix {
+    width: 70%;
+    height: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 30px;
   }
   .btn-choix__ico {
-    margin-left: 65px;
+    margin-left: 0px;
     font-size: 1.5em;
   }
   .btn-choix__ico + div {
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
   }
   .btn-compo {
-    width: 150px;
+    width: 70%;
+    height: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -104,19 +164,27 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 30px;
   }
   .btn-compo__ico {
-    margin-left: 65px;
+    margin-left: 0px;
     font-size: 1.5em;
   }
   .btn-compo__ico + div {
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
   }
   .btn-gout {
     margin-bottom: 20px;
-    width: 150px;
+    width: 70%;
+    height: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -124,22 +192,53 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 30px;
   }
   .btn-gout__ico {
-    margin-left: 65px;
+    margin-left: 0px;
     font-size: 1.5em;
   }
   .btn-gout__ico + div {
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
   }
+  .resto {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  h1 {
+    width: 100%;
+    font-size: 1.8em;
+  }
   .resto__img img {
-    width: 560px;
-    height: 250px;
+    width: 330px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .resto__indic {
-    height: 100px;
+    height: 80px;
+    width: 330px;
   }
   .resto__indic .resto__name {
     font-size: 1.3em;
@@ -150,8 +249,36 @@
   .fa-heart {
     top: 35px;
   }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+  footer .foot-title {
+    width: 100%;
+  }
   footer .foot-title p {
     font-size: 1.7em;
+    margin-bottom: 40px;
+    padding-left: 0px;
+  }
+  .foot__text {
+    margin-right: 15%;
+    margin-bottom: 30px;
   }
   .foot__text span {
     padding-top: 23px;
