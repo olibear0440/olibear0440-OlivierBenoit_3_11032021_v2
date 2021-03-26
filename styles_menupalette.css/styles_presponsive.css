@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'robotobold';
+  src: url("Roboto-Bold-webfont.eot");
+  src: url("Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../bases/fontsfamily/Roboto-Bold-webfont.woff") format("woff"), url("Roboto-Bold-webfont.ttf") format("truetype"), url("Roboto-Bold-webfont.svg#robotobold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("Roboto-Regular-webfont.eot");
+  src: url("Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../bases/fontsfamily/Roboto-Regular-webfont.woff") format("woff"), url("Roboto-Regular-webfont.ttf") format("truetype"), url("Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'shrikhandregular';
+  src: url("../bases/fontsfamily/shrikhand-regular-webfont.woff2") format("woff2"), url("../bases/fontsfamily/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer {
+  background-color: #353535;
+  height: auto;
+  padding: 5px 20px 40px 0px;
+  color: white;
+}
+
+footer .foot-title {
+  font-size: 1.2rem;
+  padding-left: 20px;
+  font-family: 'shrikhandregular', Arial, sans-serif;
+}
+
+footer .foot-title p {
+  margin-bottom: 10px;
+}
+
+.foot__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.foot__text span {
+  padding-top: 15px;
+  font-size: 0.8em;
+  margin-left: 20px;
+}
+
+.foot__text span + p {
+  font-size: 0.8em;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.foot__text span + p a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot__contact {
+  margin-left: 20px;
+  font-size: 0.8em;
+  font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.foot__contact p {
+  margin-bottom: 0;
+}
+
+.foot__contact p a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+  body {
+    width: auto;
+    background-image: url(../bases/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: 100%;
+  }
+  header {
+    padding: 40px 0px 40px 0px;
+  }
+  header span {
+    font-size: 2em;
+    top: 40px;
+    background-position-y: 0px;
+  }
+  img {
+    width: 35%;
+  }
+  .name-resto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 400px;
+  }
+  .name-resto__titre {
+    width: 100%;
+    font-size: 1.6em;
+  }
+  .name-resto__titre span {
+    left: 400px;
+    top: 50px;
+  }
+  @-webkit-keyframes plat-translate {
+    display: none;
+  }
+  @keyframes plat-translate {
+    display: none;
+  }
+  .plat {
+    max-width: 375px;
+  }
+  .plat h1 {
+    font-size: 1.2em;
+  }
+  .main__btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 315px;
+    height: 10%;
+    margin: 0px 0px 0px 15px;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+  footer .foot-title {
+    width: 100%;
+  }
+  footer .foot-title p {
+    font-size: 1.7em;
+    margin-bottom: 40px;
+    padding-left: 0px;
+  }
+  .foot__text {
+    margin-right: 15%;
+    margin-bottom: 30px;
+  }
+  .foot__text span {
+    padding-top: 23px;
+    font-size: 1.2em;
+  }
+  .foot__text span + p {
+    font-size: 1.2em;
+  }
+  .foot__contact {
+    font-size: 1.2em;
+  }
+}
+/*# sourceMappingURL=styles_presponsive.css.map */
