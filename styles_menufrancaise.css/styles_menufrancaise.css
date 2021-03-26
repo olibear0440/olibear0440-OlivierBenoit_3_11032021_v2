@@ -155,7 +155,7 @@ header span {
   color: #f6f6f6;
   font-size: 1.3em;
   text-shadow: 0 0 3px #000;
-  right: 40px;
+  right: 130px;
   top: 43px;
   position: absolute;
   -webkit-transition-property: color;
@@ -765,6 +765,7 @@ header span {
   padding: 15px;
   text-align: center;
   font-size: 0.8rem;
+  font-weight: bold;
   background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   background: linear-gradient(0deg, #9356dc, #ff79da);
   border-radius: 20px;
