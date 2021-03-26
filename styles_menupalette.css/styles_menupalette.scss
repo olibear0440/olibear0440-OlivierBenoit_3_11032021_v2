@@ -27,7 +27,11 @@ $ter-color: #99E2D0;
     50%{opacity: 0.5;}
     100%{transform: translateY(20px);}
 }
-
+@keyframes plat-translatebloc{
+    0%{opacity: 1; transform: translateY(0);}
+    50%{opacity: 0.1; transform: translateY(10px);}
+    100%{opacity: 0; transform: translateY(20px);}
+}
 
 
 // corp du site
@@ -98,7 +102,15 @@ header{
     margin: 0px 15px 20px 15px;
     color: white;
     background-color: white;
+    animation-name: plat-translatebloc;
+    animation-duration: 900ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
 }
+
+
 .btn-check{
     text-align: center;
     width: 0px;
@@ -170,8 +182,8 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1000ms;
-    animation-delay: 200ms;
+    animation-duration: 500ms;
+    animation-delay: 150ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -214,7 +226,7 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
+    animation-duration: 500ms;
     animation-delay: 300ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -263,7 +275,7 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
+    animation-duration: 500ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -308,8 +320,8 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
-    animation-delay: 200ms;
+    animation-duration: 500ms;
+    animation-delay: 150ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -352,7 +364,7 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
+    animation-duration: 500ms;
     animation-delay: 300ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -397,7 +409,7 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
+    animation-duration: 500ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -440,8 +452,8 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
-    animation-delay: 200ms;
+    animation-duration: 500ms;
+    animation-delay: 150ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -484,7 +496,7 @@ header{
     position: relative;
     color: black;
     animation-name: plat-translate;
-    animation-duration: 1s;
+    animation-duration: 500ms;
     animation-delay: 300ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;

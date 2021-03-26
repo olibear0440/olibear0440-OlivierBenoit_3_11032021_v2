@@ -107,6 +107,42 @@ footer .foot-title p {
   }
 }
 
+@-webkit-keyframes plat-translatebloc {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    opacity: 0.1;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes plat-translatebloc {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    opacity: 0.1;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
 body {
   width: 375px;
   height: auto;
@@ -192,6 +228,17 @@ header span {
   margin: 0px 15px 20px 15px;
   color: white;
   background-color: white;
+  -webkit-animation-name: plat-translatebloc;
+          animation-name: plat-translatebloc;
+  -webkit-animation-duration: 900ms;
+          animation-duration: 900ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  animation-direction: reverse;
 }
 
 .btn-check {
@@ -287,10 +334,10 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1000ms;
-          animation-duration: 1000ms;
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -346,8 +393,8 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
   -webkit-animation-iteration-count: 1;
@@ -405,8 +452,8 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -462,10 +509,10 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -521,8 +568,8 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
   -webkit-animation-iteration-count: 1;
@@ -580,8 +627,8 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -637,10 +684,10 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -696,8 +743,8 @@ header span {
   color: black;
   -webkit-animation-name: plat-translate;
           animation-name: plat-translate;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
   -webkit-animation-iteration-count: 1;
