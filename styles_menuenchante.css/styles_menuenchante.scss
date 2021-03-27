@@ -581,7 +581,7 @@ header{
     &:hover {
         background: linear-gradient(0deg, $pri-color, $sec-color);
         opacity: 0.9;
-        box-shadow: rgba(82, 81, 81, 0.7) 0px 4px 5px;
+        box-shadow: rgba(82, 81, 81, 0.952) 0px 4px 10px;
     }
     > a {
         text-decoration: none;

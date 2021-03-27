@@ -117,12 +117,6 @@ footer .foot-title p {
     left: 380px;
     top: 50px;
   }
-  @-webkit-keyframes plat-translate {
-    display: none;
-  }
-  @keyframes plat-translate {
-    display: none;
-  }
   .plat {
     max-width: 375px;
   }

@@ -195,6 +195,9 @@ $ter-color: #99E2D0;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        &__title{
+            margin-left: 25px;
+        }
     }
     h1{
         width: 100%;

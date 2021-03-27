@@ -228,6 +228,9 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .resto__title {
+    margin-left: 25px;
+  }
   h1 {
     width: 100%;
     font-size: 1.8em;
