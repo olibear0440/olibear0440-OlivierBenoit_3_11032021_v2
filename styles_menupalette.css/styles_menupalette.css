@@ -77,36 +77,6 @@ footer .foot-title p {
   color: white;
 }
 
-@-webkit-keyframes plat-translate {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
-  }
-}
-
-@keyframes plat-translate {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
-  }
-}
-
 @-webkit-keyframes plat-translatebloc {
   0% {
     opacity: 1;
@@ -121,6 +91,32 @@ footer .foot-title p {
 }
 
 @keyframes plat-translatebloc {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@-webkit-keyframes plat {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes plat {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -267,6 +263,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__fricassee--name {
@@ -313,6 +312,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__foigras--name {
@@ -359,6 +361,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__oeufplat--name {
@@ -405,6 +410,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__boeuf--name {
@@ -451,6 +459,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__parmentier--name {
@@ -497,6 +508,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__turbot--name {
@@ -543,6 +557,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__paris--name {
@@ -589,6 +606,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__macaron--name {
@@ -635,6 +655,9 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__mousse--name {

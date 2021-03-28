@@ -22,16 +22,14 @@ $ter-color: #99E2D0;
 
 //animations 
 
-@keyframes plat-translate{
-    0%{opacity: 1; transform: translateY(0);}
-    50%{opacity: 0.5;}
-    100%{transform: translateY(20px);}
-}
 @keyframes plat-translatebloc{
     0%{opacity: 1; transform: translateY(0);}
     100%{opacity: 0; transform: translateY(20px);}
 }
-
+@keyframes plat{
+    0%{opacity: 1; transform: translateY(0);}
+    100%{opacity: 0; transform: translateY(20px);}
+}
 
 // corp du site
 body{
@@ -110,7 +108,6 @@ header{
     animation-direction: reverse;
 }
 
-
 .btn-check{
     text-align: center;
     width: 0px;
@@ -138,6 +135,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -175,6 +175,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -212,6 +215,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -246,6 +252,9 @@ header{
 
 
 // les plats
+
+
+
 .plat__boeuf{
     background-color: white;
     width: 345px;
@@ -254,6 +263,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -293,6 +305,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -330,6 +345,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -360,6 +378,7 @@ header{
     }
 }     
 // desserts
+
 .plat__paris{
     background-color: white;
     width: 345px;
@@ -368,6 +387,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -405,6 +427,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -442,6 +467,9 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
