@@ -65,6 +65,10 @@ form input {
   margin-left: 10px;
   padding: 10px 5px 10px 5px;
   cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-size: 1em;
+  font-family: 'robotoregular', Arial, sans-serif;
 }
 
 .spin-loader {
@@ -138,22 +142,23 @@ form input {
   background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   background: linear-gradient(0deg, #9356dc, #ff79da);
   border-radius: 20px;
-  -webkit-box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-          box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+  -webkit-box-shadow: rgba(82, 81, 81, 0.6) 0px 2px 5px;
+          box-shadow: rgba(82, 81, 81, 0.6) 0px 2px 5px;
   -webkit-transition-property: background-color, -webkit-box-shadow;
   transition-property: background-color, -webkit-box-shadow;
   transition-property: background-color, box-shadow;
   transition-property: background-color, box-shadow, -webkit-box-shadow;
-  -webkit-transition-duration: 1000ms, 500ms;
-          transition-duration: 1000ms, 500ms;
+  -webkit-transition-duration: 500ms, 500ms;
+          transition-duration: 500ms, 500ms;
+  cursor: pointer;
 }
 
 .main__btn:hover {
   background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   background: linear-gradient(0deg, #9356dc, #ff79da);
-  opacity: 0.9;
-  -webkit-box-shadow: rgba(82, 81, 81, 0.952) 0px 4px 10px;
-          box-shadow: rgba(82, 81, 81, 0.952) 0px 4px 10px;
+  opacity: 0.8;
+  -webkit-box-shadow: #525151 0px 4px 15px;
+          box-shadow: #525151 0px 4px 15px;
 }
 
 .main__btn > a {

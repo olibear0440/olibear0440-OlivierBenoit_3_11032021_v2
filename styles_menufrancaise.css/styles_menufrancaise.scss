@@ -490,14 +490,14 @@ header{
     font-weight: bold;
     background: linear-gradient(0deg, $pri-color, $sec-color);
     border-radius: 20px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    box-shadow: rgba(82, 81, 81, 0.6) 0px 2px 5px;
     cursor: pointer;
     transition-property: background-color, box-shadow;
     transition-duration: 1000ms, 500ms;
     &:hover {
         background: linear-gradient(0deg, $pri-color, $sec-color);
-        opacity: 0.9;
-        box-shadow: rgba(82, 81, 81, 0.952) 0px 4px 10px;
+        opacity: 0.8;
+        box-shadow: rgba(82, 81, 81, 1) 0px 4px 15px;
     }
     > a {
         text-decoration: none;
