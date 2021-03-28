@@ -29,7 +29,6 @@ $ter-color: #99E2D0;
 }
 @keyframes plat-translatebloc{
     0%{opacity: 1; transform: translateY(0);}
-    50%{opacity: 0.1; transform: translateY(10px);}
     100%{opacity: 0; transform: translateY(20px);}
 }
 
@@ -103,7 +102,8 @@ header{
     color: white;
     background-color: white;
     animation-name: plat-translatebloc;
-    animation-duration: 900ms;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -138,12 +138,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -181,13 +175,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-delay: 150ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -225,13 +212,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-delay: 300ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -274,12 +254,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -319,13 +293,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-delay: 150ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -363,13 +330,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-delay: 300ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -408,12 +368,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -451,13 +405,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-delay: 150ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -495,13 +442,6 @@ header{
     margin-right: 15px;
     position: relative;
     color: black;
-    animation-name: plat-translate;
-    animation-duration: 500ms;
-    animation-delay: 300ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
     &--name{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;

@@ -113,11 +113,6 @@ footer .foot-title p {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  50% {
-    opacity: 0.1;
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
-  }
   100% {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -130,11 +125,6 @@ footer .foot-title p {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-  }
-  50% {
-    opacity: 0.1;
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
   }
   100% {
     opacity: 0;
@@ -230,8 +220,10 @@ header span {
   background-color: white;
   -webkit-animation-name: plat-translatebloc;
           animation-name: plat-translatebloc;
-  -webkit-animation-duration: 900ms;
-          animation-duration: 900ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -275,17 +267,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__fricassee--name {
@@ -332,19 +313,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 150ms;
-          animation-delay: 150ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__foigras--name {
@@ -391,19 +359,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__oeufplat--name {
@@ -450,17 +405,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__boeuf--name {
@@ -507,19 +451,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 150ms;
-          animation-delay: 150ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__parmentier--name {
@@ -566,19 +497,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__turbot--name {
@@ -625,17 +543,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__paris--name {
@@ -682,19 +589,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 150ms;
-          animation-delay: 150ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__macaron--name {
@@ -741,19 +635,6 @@ header span {
   margin-right: 15px;
   position: relative;
   color: black;
-  -webkit-animation-name: plat-translate;
-          animation-name: plat-translate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  animation-direction: reverse;
 }
 
 .plat__mousse--name {
