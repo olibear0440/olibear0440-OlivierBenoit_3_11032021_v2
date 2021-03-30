@@ -9,7 +9,7 @@ $pri-color: #9356dc;
 $sec-color: #ff79da;
 $ter-color: #99E2D0;
 
-@media screen and (min-width: 768px) and (max-width: 1920px){
+@media screen and (min-width: 375px) and (max-width: 768px){
     body{
         width: auto;
         background-image: url(../bases/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg);

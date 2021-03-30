@@ -33,16 +33,18 @@ $ter-color: #99E2D0;
 
 // corp du site
 body{
+    margin: 0px;
+}
+.main_wrapper{
     width: 375px;
     height: auto;
-    margin: 0; 
-    background-image: url(../bases/img/resto1retr.jpg); 
+    margin: auto;
+    background-image: url(../bases/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg); 
     background-repeat: no-repeat; 
     background-attachment: scroll;
     background-size: 375px 300px;
     background-position-y: 60px;
 }
-
 //en tete et logo
 header{
     text-align: center;

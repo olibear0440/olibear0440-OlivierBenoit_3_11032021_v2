@@ -29,10 +29,13 @@ $ter-color: #99E2D0;
 
 // corp du site
 body{
+    margin: 0px;
+}
+.main_wrapper{
     width: 375px;
     height: auto;
-    margin: 0; 
-    background-image: url(../bases/img/resto4retr.jpg); 
+    margin: auto; 
+    background-image: url(../bases/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg); 
     background-repeat: no-repeat; 
     background-attachment: scroll;
     background-size: 375px 300px;

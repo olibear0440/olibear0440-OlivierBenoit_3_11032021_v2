@@ -78,10 +78,14 @@ footer .foot-title p {
 }
 
 body {
+  margin: 0px;
+}
+
+.main_wrapper {
   width: 375px;
   height: auto;
-  margin: 0;
-  background-image: url(../bases/img/resto3retr.jpg);
+  margin: auto;
+  background-image: url(../bases/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 375px 300px;

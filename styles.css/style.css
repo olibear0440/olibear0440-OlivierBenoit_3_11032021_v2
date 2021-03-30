@@ -22,12 +22,14 @@
 }
 
 body {
+  margin: 0px;
+}
+
+.main_wrapper {
+  margin: auto;
   width: 375px;
   height: auto;
   background-color: white;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 header {
@@ -67,7 +69,7 @@ form input {
   cursor: pointer;
   text-align: center;
   width: 100%;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: 'robotoregular', Arial, sans-serif;
 }
 

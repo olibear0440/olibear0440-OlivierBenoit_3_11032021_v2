@@ -21,14 +21,12 @@
   font-style: normal;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1920px) {
-  body {
-    width: auto;
+@media screen and (min-width: 376px) and (max-width: 1500px) {
+  .main_wrapper {
+    margin: auto;
+    max-width: 1500px;
     height: auto;
     background-color: white;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
   }
   header {
     width: 100%;
