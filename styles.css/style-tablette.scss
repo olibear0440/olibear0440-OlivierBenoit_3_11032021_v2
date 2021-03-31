@@ -34,12 +34,16 @@ $ter-color: #99E2D0;
         }
     } 
 }
-//@media screen and (min-width: 376px) and (max-width: 1500px){  
-    .main_wrapper{
+@media screen and (min-width: 501px) and (max-width: 1500px){  
+    body{
         margin: auto;
-        max-width: 1500px;
+        width: 1500px;
+    }
+    .main_wrapper{
+        width: auto;
         height: auto;
         background-color: white;
+        margin: auto;
     } 
     header{
         width: 100%;
@@ -47,7 +51,7 @@ $ter-color: #99E2D0;
         padding: 40px 0px 40px 0px;
     }
     img{
-        width: 35%;
+        width: 40%;
     }
     //saisie de recherche et position
     .main-searchzone{
@@ -65,8 +69,9 @@ $ter-color: #99E2D0;
         border: transparent 2px solid;
         width: 23%;
          input{
-             padding: 20px 5px 20px 5px;
+             padding: 20px 5px 20px 15px;
              width: 100%;
+             margin-left: 0px;
             }
             &:hover{
                 border-bottom: solid 2px $pri-color;
