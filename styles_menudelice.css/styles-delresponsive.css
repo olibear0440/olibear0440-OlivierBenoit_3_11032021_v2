@@ -77,8 +77,8 @@ footer .foot-title p {
   color: white;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  body {
+@media screen and (min-width: 376px) and (max-width: 1500px) {
+  .main_wrapper {
     width: auto;
     background-image: url(../bases/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
     background-size: 100%;

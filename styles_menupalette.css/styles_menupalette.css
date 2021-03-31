@@ -134,7 +134,7 @@ body {
 }
 
 .main_wrapper {
-  width: 375px;
+  min-width: 375px;
   height: auto;
   margin: auto;
   background-image: url(../bases/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
