@@ -21,7 +21,10 @@
   font-style: normal;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1500px) {
+@media screen and (min-width: 700px) and (max-width: 1500px) {
+  body {
+    margin: 0px;
+  }
   .main_wrapper {
     height: auto;
     background-color: white;
