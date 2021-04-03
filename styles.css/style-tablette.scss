@@ -34,7 +34,7 @@ $ter-color: #99E2D0;
         }
     } 
 }
-@media screen and (min-width: 700px) and (max-width: 1500px){  
+@media screen and (min-width: 700px){  
     body{
         margin: 0px;
     }
@@ -190,7 +190,6 @@ $ter-color: #99E2D0;
         }
     }
     .resto{
-        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
