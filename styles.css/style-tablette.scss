@@ -76,14 +76,15 @@ $ter-color: #99E2D0;
             }
     }
     .spin-loader{
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
         border: 5px solid rgb(246, 246, 246);
         border-top: 5px solid $pri-color;
         border-left: 5px solid transparent;
         border-right: 5px solid transparent;
         border-bottom: 5px solid $pri-color;
-        top: -48px;
+        left: -150px;
+        top: -185px;
     }
     .desk_contain{
         display: flex;
@@ -139,6 +140,9 @@ $ter-color: #99E2D0;
         justify-content: space-around;
         align-items: center;
         padding-bottom: 30px;
+        &__num{
+            top: auto;
+        }
         &__ico{
             margin-left: 0px;
             font-size: 1.5em;
@@ -158,6 +162,9 @@ $ter-color: #99E2D0;
         justify-content: space-around;
         align-items: center;
         padding-bottom: 30px;
+        &__num{
+            top: auto;
+        }
         &__ico{
             margin-left: 0px;
             font-size: 1.5em;
@@ -178,6 +185,9 @@ $ter-color: #99E2D0;
         justify-content: space-around;
         align-items: center;
         padding-bottom: 30px;
+        &__num{
+            top: auto;
+        }
         &__ico{
             margin-left: 0px;
             font-size: 1.5em;

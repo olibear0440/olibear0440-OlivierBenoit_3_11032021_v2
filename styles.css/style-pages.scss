@@ -12,19 +12,6 @@ $pri-color: #9356dc;
 $sec-color: #ff79da;     
 $ter-color: #99E2D0;
 
-//mixin
-@mixin plat-titr {
-    h1{
-        font-family: 'robotoregular', Arial, sans-serif;
-        font-size: 0.95em;
-        color: rgb(61, 61, 61);
-        padding-bottom: 5px;
-        border-bottom: $ter-color solid 3px;
-        margin-left: 20px;
-        width: 12%;
-    }
-}
-
 // corp du site
 body{
     margin: 0px;
@@ -38,8 +25,8 @@ body{
     background-size: 375px 300px;
     background-position-y: 60px;
 }
-// animations
 
+// animations
 @keyframes plat-translatebloc{
     0%{opacity: 1; transform: translateY(0);}
     100%{transform: translateY(20px);}

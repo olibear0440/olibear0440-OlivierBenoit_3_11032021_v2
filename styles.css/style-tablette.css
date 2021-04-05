@@ -64,14 +64,15 @@
     border-bottom: solid 2px #9356dc;
   }
   .spin-loader {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border: 5px solid #f6f6f6;
     border-top: 5px solid #9356dc;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid #9356dc;
-    top: -48px;
+    left: -150px;
+    top: -185px;
   }
   .desk_contain {
     display: -webkit-box;
@@ -147,6 +148,9 @@
             align-items: center;
     padding-bottom: 30px;
   }
+  .btn-choix__num {
+    top: auto;
+  }
   .btn-choix__ico {
     margin-left: 0px;
     font-size: 1.5em;
@@ -173,6 +177,9 @@
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 30px;
+  }
+  .btn-compo__num {
+    top: auto;
   }
   .btn-compo__ico {
     margin-left: 0px;
@@ -201,6 +208,9 @@
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 30px;
+  }
+  .btn-gout__num {
+    top: auto;
   }
   .btn-gout__ico {
     margin-left: 0px;
