@@ -151,6 +151,7 @@ header{
     font-family: 'robotobold', Arial, sans-serif;
     font-size: 0.9em;
     cursor: pointer;
+    color: black;
     &:hover +.btn-check{
         width: 100px;
          .fa-check{
