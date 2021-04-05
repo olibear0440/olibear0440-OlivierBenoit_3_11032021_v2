@@ -1,5 +1,10 @@
 @import "../bases/fontsfamily/font-family";
 @import "../bases/footer/footer";
+@import "../utils/styles_menupalette";
+@import "../utils/styles_menufrancaise";
+@import "../utils/styles_menuenchante";
+@import "../utils/styles_menudelice";
+
 
 // variables
 $backg-grey: rgb(246, 246, 246);
@@ -20,31 +25,26 @@ $ter-color: #99E2D0;
     }
 }
 
-//animations 
-
-@keyframes plat-translatebloc{
-    0%{opacity: 1; transform: translateY(0);}
-    100%{opacity: 0; transform: translateY(20px);}
-}
-@keyframes plat{
-    0%{opacity: 1; transform: translateY(0);}
-    100%{opacity: 0; transform: translateY(20px);}
-}
-
 // corp du site
 body{
     margin: 0px;
 }
 .main_wrapper{
-    min-width: 375px;
+    width: 375px;
     height: auto;
-    margin: auto;
-    background-image: url(../bases/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg); 
+    margin: auto; 
     background-repeat: no-repeat; 
     background-attachment: scroll;
     background-size: 375px 300px;
     background-position-y: 60px;
 }
+// animations
+
+@keyframes plat-translatebloc{
+    0%{opacity: 1; transform: translateY(0);}
+    100%{transform: translateY(20px);}
+}
+
 //en tete et logo
 header{
     text-align: center;
@@ -88,13 +88,12 @@ header{
         }
     }
 }
-.plat{
+.menu{
     @include plat-titr();
     margin-bottom: 40px;
 }
-
 // les entrées
-.bloc-plat{
+.plat{
     display: flex;
     border-radius: 15px;
     box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
@@ -109,7 +108,6 @@ header{
     animation-timing-function: ease-in;
     animation-direction: reverse;
 }
-
 .btn-check{
     text-align: center;
     width: 0px;
@@ -129,18 +127,17 @@ header{
     transition: transform 500ms linear;
     transform: translate(0px) rotate(0deg);
  }
-.plat__fricassee{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -159,7 +156,7 @@ header{
          }
     }
 } 
-.plat__fricassee{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -169,18 +166,17 @@ header{
         }
     }
 }
-.plat__foigras{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -199,7 +195,7 @@ header{
          }
     }
 } 
-.plat__foigras{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -209,18 +205,17 @@ header{
         }
     }
 }
-.plat__oeufplat{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -230,16 +225,16 @@ header{
             padding: 0px 0px 10px 10px;
             margin-top: 0;
             + p{
-                position: absolute;
-                font-family: 'robotobold', Arial, sans-serif;
-                font-size: 0.9em;
-                top: 20px;
-                right: 20px;
-            }
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+             }
          }
     }
 }  
-.plat__oeufplat{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -249,26 +244,18 @@ header{
         }
     }
 }
-
-
-
-
 // les plats
-
-
-
-.plat__boeuf{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -287,7 +274,7 @@ header{
          }
     }
 }  
-.plat__boeuf{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -297,20 +284,17 @@ header{
         }
     }
 }
-
-
-.plat__parmentier{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -329,7 +313,7 @@ header{
          }
     }
 }
-.plat__parmentier{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -338,19 +322,18 @@ header{
             transform: translate(-5px) rotate(360deg);
         }
     }
-}     
-.plat__turbot{
+}    
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -369,7 +352,7 @@ header{
          }
     }
 } 
-.plat__turbot{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -378,21 +361,19 @@ header{
             transform: translate(-5px) rotate(360deg);
         }
     }
-}     
+}    
 // desserts
-
-.plat__paris{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    position: relative;
+    margin-right: 15px.
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -411,7 +392,7 @@ header{
          }
     }
 } 
-.plat__paris{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -421,18 +402,17 @@ header{
         }
     }
 }
-.plat__macaron{
+.plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 15px;
-    position: relative;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
@@ -451,7 +431,7 @@ header{
          }
     }
 }
-.plat__macaron{
+.plat__titre{
     transition: width 1000ms linear;
     &:hover + .btn-check{
         cursor: pointer;
@@ -461,88 +441,54 @@ header{
         }
     }
 }
-
-
-
-
-
-
-.bloc-plat1{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 345px;
-    border-radius: 15px;
-    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
-    margin: 0px 15px 20px 15px;
-    color: white;
+.plat__titre{
     background-color: white;
-    animation-name: plat-translatebloc;
-    animation-duration: 1000ms;
-    animation-delay: 0ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
-}
-.plat__mousse1{
-    background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    margin-right: 15px;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    &--name{
+    &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
         margin: 0;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
         + p{
             font-family: 'robotoregular', Arial, sans-serif;
             font-size: 0.9em;
             padding: 0px 0px 10px 10px;
             margin-top: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            + p{
+                 position: absolute;
+                 font-family: 'robotobold', Arial, sans-serif;
+                 font-size: 0.9em;
+                 top: 20px;
+                 right: 20px;
+                 text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+             }
          }
     }
 } 
-.plat__mousse1{
+.plat__titre{
     transition: width 1000ms linear;
-    &:hover + .btn-check1{
+    &:hover + .btn-check{
         cursor: pointer;
-        width: 200px;
+        width: 100px;
          .fa-check{
             transform: translate(-5px) rotate(360deg);
         }
     }
 }
-
-.tarif{
-    display: flex;
-    align-items: center;
-    color: black;
-    width: 40px;
-    font-family: 'robotobold', Arial, sans-serif;
-    font-size: 0.9em;
-
-}
-.btn-check1{
-    text-align: center;
-    width: 0px;
-    background-color: $ter-color;
-    overflow: hidden;
-    transition: width 500ms linear;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px; 
-}
-
-
-
-
-
-
-
-
 .main__btn {
     margin: 40px 100px 0px 100px;
     padding: 15px;
@@ -565,4 +511,4 @@ header{
         color: white; 
         font-family: 'robotoregular', Arial, sans-serif;   
         }
-    }
+}
