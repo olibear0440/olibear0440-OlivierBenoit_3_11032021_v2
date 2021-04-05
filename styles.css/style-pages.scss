@@ -117,6 +117,7 @@ header{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    cursor: pointer;
     &--gras{
         font-family: 'robotobold', Arial, sans-serif;
         padding: 10px 0px 5px 10px;
@@ -138,7 +139,6 @@ header{
 .plat__titre{
     transition: width 500ms linear;
     &:hover +.tarif +.btn-check{
-        cursor: pointer;
         width: 100px;
          .fa-check{
             transform: translate(-5px) rotate(360deg);
@@ -146,8 +146,18 @@ header{
     }
 }
 .tarif{
+    border: 1px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: 'robotobold', Arial, sans-serif;
     font-size: 0.9em;
+    cursor: pointer;
+    &:hover +.btn-check{
+        width: 100px;
+         .fa-check{
+            transform: translate(-5px) rotate(360deg);
+         }
+    }
 }
 .btn-check{
     text-align: center;
