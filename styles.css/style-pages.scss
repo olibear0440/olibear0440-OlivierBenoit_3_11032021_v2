@@ -92,7 +92,6 @@ header{
     @include plat-titr();
     margin-bottom: 40px;
 }
-
 .plat{
     display: flex;
     border-radius: 15px;
@@ -152,6 +151,8 @@ header{
     font-size: 0.9em;
     cursor: pointer;
     color: black;
+    display: flex;
+    align-items: center;
     &:hover +.btn-check{
         width: 100px;
          .fa-check{
