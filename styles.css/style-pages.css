@@ -248,11 +248,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -297,11 +296,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -346,11 +344,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -395,11 +392,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -444,11 +440,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -493,11 +488,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -542,11 +536,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -591,11 +584,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -640,11 +632,10 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-right: 15px;
-  position: relative;
   color: black;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -655,6 +646,9 @@ header span {
   font-family: 'robotobold', Arial, sans-serif;
   padding: 10px 0px 5px 10px;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__titre--gras + p {
@@ -662,6 +656,9 @@ header span {
   font-size: 0.9em;
   padding: 0px 0px 10px 10px;
   margin-top: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__titre--gras + p + p {
@@ -670,6 +667,9 @@ header span {
   font-size: 0.9em;
   top: 20px;
   right: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .plat__titre {
