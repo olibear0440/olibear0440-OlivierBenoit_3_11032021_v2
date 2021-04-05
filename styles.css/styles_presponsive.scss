@@ -1,6 +1,9 @@
 @import "../bases/fontsfamily/font-family";
 @import "../bases/footer/footer";
-
+@import "../utils/styles_menupalette";
+@import "../utils/styles_menufrancaise";
+@import "../utils/styles_menuenchante";
+@import "../utils/styles_menudelice";
 // variables
 $grey-strongcolor: #d9d9d9;
 $grey-smoothcolor: #f2f2f2;
@@ -12,7 +15,6 @@ $ter-color: #99E2D0;
 @media screen and (min-width: 700px){
     .main_wrapper{
         width: auto;
-        background-image: url(../bases/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
         background-size: 100%;
     }
     header{
