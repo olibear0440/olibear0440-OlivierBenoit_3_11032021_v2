@@ -137,9 +137,9 @@ header{
 } 
 .plat__titre{
     transition: width 500ms linear;
-    &:hover{
+    &:hover +.tarif +.btn-check{
         cursor: pointer;
-        width: 220px;
+        width: 100px;
          .fa-check{
             transform: translate(-5px) rotate(360deg);
          }

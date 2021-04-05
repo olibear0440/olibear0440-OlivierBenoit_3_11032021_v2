@@ -255,12 +255,12 @@ header span {
   transition: width 500ms linear;
 }
 
-.plat__titre:hover {
+.plat__titre:hover + .tarif + .btn-check {
   cursor: pointer;
-  width: 220px;
+  width: 100px;
 }
 
-.plat__titre:hover .fa-check {
+.plat__titre:hover + .tarif + .btn-check .fa-check {
   -webkit-transform: translate(-5px) rotate(360deg);
           transform: translate(-5px) rotate(360deg);
 }
