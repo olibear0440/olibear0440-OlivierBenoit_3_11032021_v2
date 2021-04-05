@@ -92,7 +92,7 @@ header{
     @include plat-titr();
     margin-bottom: 40px;
 }
-// les entrées
+
 .plat{
     display: flex;
     border-radius: 15px;
@@ -108,345 +108,11 @@ header{
     animation-timing-function: ease-in;
     animation-direction: reverse;
 }
-.btn-check{
-    text-align: center;
-    width: 0px;
-    background-color: $ter-color;
-    overflow: hidden;
-    transition: width 500ms linear;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px; 
-}
-.fa-check{
-    font-size: 1.1rem;
-    color: $ter-color;
-    padding: 4px 4px;
-    border-radius: 50%;
-    background-color: white;
-    margin-top: 25px;
-    transition: transform 500ms linear;
-    transform: translate(0px) rotate(0deg);
- }
 .plat__titre{
     background-color: white;
     width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-} 
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-} 
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-}  
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}
-// les plats
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-}  
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-}
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}    
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-} 
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}    
-// desserts
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-} 
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    &--gras{
-        font-family: 'robotobold', Arial, sans-serif;
-        padding: 10px 0px 5px 10px;
-        margin: 0;
-        + p{
-            font-family: 'robotoregular', Arial, sans-serif;
-            font-size: 0.9em;
-            padding: 0px 0px 10px 10px;
-            margin-top: 0;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-             }
-         }
-    }
-}
-.plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
-        cursor: pointer;
-        width: 100px;
-         .fa-check{
-            transform: translate(-5px) rotate(360deg);
-        }
-    }
-}
-.plat__titre{
-    background-color: white;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 15px;
     color: black;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -466,29 +132,45 @@ header{
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
-            + p{
-                 position: absolute;
-                 font-family: 'robotobold', Arial, sans-serif;
-                 font-size: 0.9em;
-                 top: 20px;
-                 right: 20px;
-                 text-overflow: ellipsis;
-                white-space: nowrap;
-                overflow: hidden;
-             }
          }
     }
 } 
 .plat__titre{
-    transition: width 1000ms linear;
-    &:hover + .btn-check{
+    transition: width 500ms linear;
+    &:hover{
         cursor: pointer;
-        width: 100px;
+        width: 220px;
          .fa-check{
             transform: translate(-5px) rotate(360deg);
-        }
+         }
     }
 }
+.tarif{
+    font-family: 'robotobold', Arial, sans-serif;
+    font-size: 0.9em;
+}
+.btn-check{
+    text-align: center;
+    width: 0px;
+    background-color: $ter-color;
+    overflow: hidden;
+    transition: width 500ms linear;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    
+}
+.fa-check{
+    font-size: 1.1rem;
+    color: $ter-color;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 25px;
+    transition: transform 500ms linear;
+    transform: translate(0px) rotate(0deg);
+ }
+
+ //bouton principal "commander"
 .main__btn {
     margin: 40px 100px 0px 100px;
     padding: 15px;
