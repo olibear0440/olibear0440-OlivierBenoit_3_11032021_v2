@@ -98,13 +98,13 @@ body {
 }
 
 .main_wrapper {
-  width: 375px;
+  width: auto;
   height: auto;
   margin: auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 375px 300px;
-  background-position-y: 60px;
+  background-size: 100%;
+  background-position-y: 70px;
 }
 
 @-webkit-keyframes plat-translatebloc {
@@ -222,7 +222,7 @@ header span {
 
 .plat__titre {
   background-color: white;
-  width: 345px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   color: black;

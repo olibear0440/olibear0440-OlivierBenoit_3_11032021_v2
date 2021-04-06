@@ -34,8 +34,6 @@ body {
 
 header {
   border-bottom: #cfcfcf solid 1px;
-  -webkit-box-shadow: #d5d5d5 0px 2px 5px;
-          box-shadow: #d5d5d5 0px 2px 5px;
   text-align: center;
   padding: 20px 0px 5px 0px;
   background-color: white;
