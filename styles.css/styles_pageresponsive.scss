@@ -9,7 +9,7 @@ $ter-color: #99E2D0;
 
 @media screen and (min-width: 700px){
     .main_wrapper{
-        width: auto;
+        max-width: 1440px;
         background-size: 100%;
     }
     header{
