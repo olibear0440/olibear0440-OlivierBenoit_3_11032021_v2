@@ -1,0 +1,27 @@
+@mixin fonct-mainbtn {
+    width: auto;
+    margin: 0px 20px 20px 30px;
+    padding: 20px 0px 20px 0px;
+    background-color: $grey-smoothcolor;
+    border-radius: 15px;
+    box-shadow: rgba(82, 81, 81, 0.452) 0px 2px 5px;
+    font-family: 'robotobold', Arial, sans-serif;
+    display: flex;
+    position: relative;
+    &__num {
+        border-radius: 50%;
+        padding: 5px 10px;
+        color: white;
+        background-color: $pri-color;
+        position: absolute;
+        left: -15px;
+        top: 15px; 
+    }
+    &__ico {
+        margin-left: 40px;
+        color: $grey-txtcolor;
+        + div {
+            margin-left: 30px;
+        }
+    } 
+}
