@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,+CAA+C;CAEpE",
+    "sources": [
+        "styles_bgmenuenchante.scss"
+    ],
+    "names": [],
+    "file": "styles_bgmenuenchante.css"
+}

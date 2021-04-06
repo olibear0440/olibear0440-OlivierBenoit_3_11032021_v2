@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,yDAAyD;CAE9E",
+    "sources": [
+        "styles_bgmenupalette.scss"
+    ],
+    "names": [],
+    "file": "styles_bgmenupalette.css"
+}

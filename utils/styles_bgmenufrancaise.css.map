@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,sDAAsD;CAE3E",
+    "sources": [
+        "styles_bgmenufrancaise.scss"
+    ],
+    "names": [],
+    "file": "styles_bgmenufrancaise.css"
+}
