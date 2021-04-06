@@ -17,7 +17,7 @@ body{
     margin: 0px;
 }
 .main_wrapper{
-    width: 375px;
+    width: auto;
     height: auto;
     margin: auto; 
     background-repeat: no-repeat; 
@@ -90,7 +90,7 @@ header{
 
 .plat__titre{
     background-color: white;
-    width: 345px;
+    width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     color: black;

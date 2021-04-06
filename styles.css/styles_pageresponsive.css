@@ -43,6 +43,9 @@
   .plat h1 {
     font-size: 1.2em;
   }
+  .plat__titre {
+    width: 375px;
+  }
   .main__btn {
     font-size: 1.2rem;
     font-weight: bold;
