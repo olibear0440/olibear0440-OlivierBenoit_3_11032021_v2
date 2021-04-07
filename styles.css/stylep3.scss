@@ -233,22 +233,9 @@ section{
         }  
     }    
 }
-.fa-heart{
-    display: none;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 1.5em;
-    color: white;
-    text-shadow: 0 0 3px #000;
-    transition-property: color;
-    transition-duration: 2000ms;
-    &:hover {
-        color: $pri-color;
-    } 
-}
 svg{
     position: absolute;
+    cursor: pointer;
     right: 20px;
     fill-opacity: 0;
     top: 30px;
