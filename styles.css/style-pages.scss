@@ -54,17 +54,19 @@ header{
         position: relative;
         padding: 20px 0px 5px 20px;
         font-size: 1.1em;
-         span{
-             color: $backg-grey;
-             font-size: 1.3em;
-             text-shadow: 0 0 3px #000;
-             right: 40px;
-             top: 43px;
-             position: absolute;
-             transition-property: color;
-             transition-duration: 2000ms;
-             &:hover {
-                color: $pri-color;
+        svg{
+            position: absolute;
+            right: 40px;
+            fill-opacity: 0;
+            top: 35px;
+            stroke: black;
+            stroke-width: 20px;
+            width: 40px;
+            transition-property: fill-opacity;
+            transition-duration: 1500ms;
+            transition-timing-function: linear;
+            &:hover {
+                fill-opacity: 1; 
             }
         }
     }

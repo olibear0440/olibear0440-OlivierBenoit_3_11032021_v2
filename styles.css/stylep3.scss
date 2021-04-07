@@ -234,6 +234,7 @@ section{
     }    
 }
 .fa-heart{
+    display: none;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -245,6 +246,21 @@ section{
     &:hover {
         color: $pri-color;
     } 
+}
+svg{
+    position: absolute;
+    right: 20px;
+    fill-opacity: 0;
+    top: 30px;
+    stroke: black;
+    stroke-width: 20px;
+    width: 30px;
+    transition-property: fill-opacity;
+    transition-duration: 1500ms;
+    transition-timing-function: linear;
+    &:hover {
+        fill-opacity: 1; 
+    }
 }
 footer{
     background-color: rgb(53, 53, 53);
@@ -290,3 +306,4 @@ footer{
          }
      }
 }
+

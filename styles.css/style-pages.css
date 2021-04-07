@@ -163,22 +163,23 @@ header span {
   padding: 20px 0px 5px 20px;
   font-size: 1.1em;
 }
-
-.name-resto__titre span {
-  color: #f6f6f6;
-  font-size: 1.3em;
-  text-shadow: 0 0 3px #000;
-  right: 40px;
-  top: 43px;
+.name-resto__titre svg{
   position: absolute;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 2000ms;
-          transition-duration: 2000ms;
+  right: 40px;
+  fill-opacity: 0;
+  top: 35px;
+  stroke: black;
+  stroke-width: 20px;
+  width: 40px;
+  -webkit-transition-property: fill-opacity;
+  transition-property: fill-opacity;
+  -webkit-transition-duration: 1500ms;
+  transition-duration: 1500ms;
+  -webkit-transition-timing-function: linear;        
+  transition-timing-function: linear;
 }
-
-.name-resto__titre span:hover {
-  color: #9356dc;
+.name-resto__titre svg:hover {
+  fill-opacity: 1;
 }
 
 .menu {

@@ -379,6 +379,7 @@ section a {
 }
 
 .fa-heart {
+  display: none;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -393,6 +394,26 @@ section a {
 
 .fa-heart:hover {
   color: #9356dc;
+}
+
+svg {
+  position: absolute;
+  right: 20px;
+  fill-opacity: 0;
+  top: 30px;
+  stroke: black;
+  stroke-width: 20px;
+  width: 30px;
+  -webkit-transition-property: fill-opacity;
+  transition-property: fill-opacity;
+  -webkit-transition-duration: 1500ms;
+          transition-duration: 1500ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+svg:hover {
+  fill-opacity: 1;
 }
 
 footer {
