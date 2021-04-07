@@ -33,7 +33,7 @@
     width: 100%;
     font-size: 1.6em;
   }
-  .name-resto__titre span {
+  .name-resto__titre svg {
     left: 400px;
     top: 50px;
   }
