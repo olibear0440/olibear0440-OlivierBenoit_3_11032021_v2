@@ -165,7 +165,7 @@ header span {
 }
 .name-resto__titre svg{
   position: absolute;
-  right: 40px;
+  right: 30px;
   fill-opacity: 0;
   top: 35px;
   stroke: black;
