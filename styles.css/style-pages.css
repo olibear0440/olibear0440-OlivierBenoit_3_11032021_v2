@@ -171,15 +171,12 @@ header span {
   stroke: black;
   stroke-width: 20px;
   width: 40px;
-  -webkit-transition-property: fill-opacity;
-  transition-property: fill-opacity;
-  -webkit-transition-duration: 1500ms;
-  transition-duration: 1500ms;
-  -webkit-transition-timing-function: linear;        
-  transition-timing-function: linear;
+  transition: fill-opacity 1000ms linear, stroke 1000ms linear;
+  -webkit-transition: fill-opacity 1000ms linear, stroke 1000ms linear;
 }
 .name-resto__titre svg:hover {
   fill-opacity: 1;
+  stroke: transparent;
 }
 
 .menu {

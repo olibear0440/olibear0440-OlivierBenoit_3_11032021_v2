@@ -255,11 +255,10 @@ svg{
     stroke: black;
     stroke-width: 20px;
     width: 30px;
-    transition-property: fill-opacity;
-    transition-duration: 1500ms;
-    transition-timing-function: linear;
+    transition: fill-opacity 1000ms linear, stroke 1000ms linear;
     &:hover {
         fill-opacity: 1; 
+        stroke: transparent;
     }
 }
 footer{
