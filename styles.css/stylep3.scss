@@ -233,21 +233,20 @@ section{
         }  
     }    
 }
-svg{
+.fa-heart{
     position: absolute;
     cursor: pointer;
     right: 20px;
-    fill-opacity: 0;
-    top: 30px;
-    stroke: black;
-    stroke-width: 20px;
-    width: 30px;
-    transition: fill-opacity 1000ms linear, stroke 1000ms linear;
+    top: 20px;
+    text-shadow: 0px 0px 3px black;
+    font-size: 1.5em;
+    color: white;
+    transition: color 1000ms linear;
     &:hover {
-        fill-opacity: 1; 
-        stroke: transparent;
+        color: $pri-color;
     }
 }
+
 footer{
     background-color: rgb(53, 53, 53);
     height: auto;

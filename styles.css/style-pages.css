@@ -163,22 +163,22 @@ header span {
   padding: 20px 0px 5px 20px;
   font-size: 1.1em;
 }
-.name-resto__titre svg{
+.name-resto__titre span{
   position: absolute;
   cursor: pointer;
-  right: 20px;
-  fill-opacity: 0;
+  right: 40px;
+  color: white;
   top: 35px;
-  stroke: black;
-  stroke-width: 20px;
-  width: 40px;
-  transition: fill-opacity 1000ms linear, stroke 1000ms linear;
-  -webkit-transition: fill-opacity 1000ms linear, stroke 1000ms linear;
+  text-shadow: 0px 0px 3px black;
+  font-size: 1.5em;
+  transition: color 1000ms linear;
+  -webkit-transition: color 1000ms linear;
 }
-.name-resto__titre svg:hover {
-  fill-opacity: 1;
-  stroke: transparent;
+.name-resto__titre span:hover {
+  color: #9356dc;
 }
+
+
 
 .menu {
   margin-bottom: 40px;

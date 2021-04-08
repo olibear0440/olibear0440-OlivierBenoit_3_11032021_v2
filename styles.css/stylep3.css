@@ -378,22 +378,20 @@ section a {
   font-size: 0.85em;
 }
 
-svg {
+.fa-heart {
   position: absolute;
   cursor: pointer;
   right: 20px;
-  fill-opacity: 0;
-  top: 30px;
-  stroke: black;
-  stroke-width: 20px;
-  width: 30px;
-  -webkit-transition: fill-opacity 1000ms linear, stroke 1000ms linear;
-  transition: fill-opacity 1000ms linear, stroke 1000ms linear;
+  top: 20px;
+  text-shadow: 0px 0px 3px black;
+  font-size: 1.5em;
+  color: white;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
 }
 
-svg:hover {
-  fill-opacity: 1;
-  stroke: transparent;
+.fa-heart:hover {
+  color: #9356dc;
 }
 
 footer {
