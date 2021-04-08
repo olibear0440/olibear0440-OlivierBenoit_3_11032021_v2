@@ -167,7 +167,7 @@ header span {
   position: absolute;
   cursor: pointer;
   right: 40px;
-  color: white;
+  color: rgb(246, 246, 246);
   top: 35px;
   text-shadow: 0px 0px 3px black;
   font-size: 1.5em;

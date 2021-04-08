@@ -33,7 +33,7 @@
     width: 100%;
     font-size: 1.6em;
   }
-  .name-resto__titre svg {
+  .name-resto__titre .fa-heart {
     left: 400px;
     top: 50px;
   }
